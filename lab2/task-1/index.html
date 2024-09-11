@@ -20,7 +20,7 @@
     
     
       
-        <title>Threads vs Porcess vs Async - Лабораторные работы</title>
+        <title>Сравнение подходов - Лабораторные работы</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#threads-vs-porcess-vs-async" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Threads vs Porcess vs Async
+              Сравнение подходов
             
           </span>
         </div>
@@ -367,7 +367,7 @@
           
   
   <span class="md-ellipsis">
-    Threads vs Porcess vs Async
+    Сравнение подходов
   </span>
   
 
@@ -378,7 +378,7 @@
         
   
   <span class="md-ellipsis">
-    Threads vs Porcess vs Async
+    Сравнение подходов
   </span>
   
 
@@ -400,7 +400,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       Код программы
     </span>
@@ -409,7 +409,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       Результаты
     </span>
@@ -418,7 +418,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       Выводы
     </span>
@@ -446,7 +446,7 @@
         
   
   <span class="md-ellipsis">
-    Пасинг веб страниц
+    Парсинг
   </span>
   
 
@@ -574,7 +574,7 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       Код программы
     </span>
@@ -583,7 +583,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       Результаты
     </span>
@@ -592,7 +592,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       Выводы
     </span>
@@ -615,14 +615,14 @@
                   
 
 
-<h1 id="threads-vs-porcess-vs-async">Threads vs Porcess vs Async</h1>
+<h1 id="_1">Сравнение подходов</h1>
 <p>Сравнение перфоманса 3 подходов в python:</p>
 <ul>
 <li>multithread</li>
 <li>multiprocess</li>
 <li>async</li>
 </ul>
-<h2 id="_1">Код программы</h2>
+<h2 id="_2">Код программы</h2>
 <pre><code class="language-python">import asyncio
 import threading
 import multiprocessing
@@ -714,13 +714,13 @@ if __name__ == '__main__':
     end_time = time.time()
     print(f&quot;Threading time: {end_time - start_time} seconds&quot;)
 </code></pre>
-<h2 id="_2">Результаты</h2>
+<h2 id="_3">Результаты</h2>
 <pre><code>Async time: 0.0416417121887207 seconds
 Multiprocessing time: 0.6034059524536133 seconds
 Threading time: 0.0812838077545166 seconds
 
 </code></pre>
-<h2 id="_3">Выводы</h2>
+<h2 id="_4">Выводы</h2>
 <p>В данном задании лучше всего себя показал async, чуть хуже multiprocessing, ну и хуже всего threading, так как затрачивает больше всего ресурсов на создание потоков</p>
 
 

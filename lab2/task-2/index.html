@@ -20,7 +20,7 @@
     
     
       
-        <title>Пасинг веб страниц - Лабораторные работы</title>
+        <title>Парсинг - Лабораторные работы</title>
       
     
     
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Пасинг веб страниц
+              Парсинг
             
           </span>
         </div>
@@ -358,7 +358,7 @@
         
   
   <span class="md-ellipsis">
-    Threads vs Porcess vs Async
+    Сравнение подходов
   </span>
   
 
@@ -388,7 +388,7 @@
           
   
   <span class="md-ellipsis">
-    Пасинг веб страниц
+    Парсинг
   </span>
   
 
@@ -399,7 +399,7 @@
         
   
   <span class="md-ellipsis">
-    Пасинг веб страниц
+    Парсинг
   </span>
   
 
@@ -597,7 +597,7 @@
                   
 
 
-<h1 id="_1">Пасинг веб страниц</h1>
+<h1 id="_1">Парсинг</h1>
 <p>Тут я парсил данные с сайта книжного магазина</p>
 <h2 id="_2">Код программы</h2>
 <pre><code>import asyncio
@@ -724,11 +724,11 @@ if __name__ == &quot;__main__&quot;:
     print(f&quot;threading time: {end_time - start_time}\n&quot;)
 </code></pre>
 <h2 id="_3">Результаты замеров</h2>
-<pre><code>async time: 1.5550189018249512
+<pre><code>async time: 1.1574339866638184
 
-muliprocess time: 3.908064126968384
+muliprocessing time: 2.678506851196289
 
-thread time: 2.224595785140991
+threading time: 1.691572904586792
 
 </code></pre>
 <p>По итогу в задаче ввода-вывода лучше всего себя показал async, чуть хуже справляется threading и хуже всего muliprocessing</p>
